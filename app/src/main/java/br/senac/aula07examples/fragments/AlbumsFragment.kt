@@ -13,6 +13,7 @@ class AlbumsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_albums, container, false)
     }
 
+    // Fabrica que constroi o fragmento
     companion object {
         @JvmStatic
         fun newInstance() = AlbumsFragment()
